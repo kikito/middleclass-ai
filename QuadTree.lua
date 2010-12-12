@@ -5,7 +5,7 @@
 -----------------------------------------------------------------------------------
 
 assert(Object~=nil and class~=nil, 'MiddleClass not detected. Please require it before using Apply')
-assert(Brancy~=nil, 'QuadTree requires the middleclass-extras Branchy module in order to work. Please require it before QuadTree')
+assert(Branchy~=nil, 'QuadTree requires the middleclass-extras Branchy module in order to work. Please require it before QuadTree')
 
 --------------------------------
 --      PRIVATE STUFF
